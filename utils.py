@@ -172,16 +172,16 @@ def verify_hand(hole_cards, community_cards):
     return 'highcard'
 
 
-hole = [('7', 'spades'), ('K', 'diamonds')]
-c_cards = [('10', 'spades'), ('9', 'spades'), ('8', 'spades'), ('7', 'hearts'), ('6', 'spades')]
+# hole = [('7', 'spades'), ('K', 'diamonds')]
+# c_cards = [('10', 'spades'), ('9', 'spades'), ('8', 'spades'), ('7', 'hearts'), ('6', 'spades')]
 
 # print(verify_sequence(hole + c_cards))
 
 # print(verify_same_number(hole + c_cards))
 
-print(verify_hand(hole, c_cards))
+# print(verify_hand(hole, c_cards))
 
 # print(verify_same_suit(hole + c_cards))
 
-royal_flush_test = [('10', 'spades'), ('9', 'spades'), ('8', 'spades'), ('7', 'spades'), ('6', 'spades')]
+# royal_flush_test = [('10', 'spades'), ('9', 'spades'), ('8', 'spades'), ('7', 'spades'), ('6', 'spades')]
 # print(verify_sequence(royal_flush_test))

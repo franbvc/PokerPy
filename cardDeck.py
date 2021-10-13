@@ -29,6 +29,6 @@ class CardDeck:
 
         return c_cards
 
-test = CardDeck()
+# test = CardDeck()
 
-print(test.intial_deck)
+# print(test.intial_deck)
